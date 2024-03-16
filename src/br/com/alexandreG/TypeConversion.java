@@ -10,7 +10,7 @@ public class TypeConversion {
         //conversion types
         long number_1 = 102323131331313131L;
         System.out.println(number_1);
-        int number_2 = (int) number_1;
+        Long number_2 = (long) number_1;
         System.out.println(number_2);
     }
 }
